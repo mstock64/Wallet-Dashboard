@@ -1,0 +1,1102 @@
+{
+  "links": {
+    "self": "https://api.zerion.io/v1/wallets/0xec91e709ded36128c01e7f9975b8e26e3f24b16c/positions/?currency=usd&filter%5Bpositions%5D=only_simple&filter%5Btrash%5D=only_non_trash&sort=value"
+  },
+  "data": [
+    {
+      "type": "positions",
+      "id": "base-ethereum-asset-asset",
+      "attributes": {
+        "parent": null,
+        "protocol": null,
+        "name": "Asset",
+        "position_type": "wallet",
+        "quantity": {
+          "int": "3521296744320685",
+          "decimals": 18,
+          "float": 0.0035212967443207,
+          "numeric": "0.003521296744320685"
+        },
+        "value": 11.083598419456345,
+        "price": 3147.59,
+        "changes": {
+          "absolute_1d": -1.1125537063681197,
+          "percent_1d": -9.122169803149372
+        },
+        "fungible_info": {
+          "name": "Ethereum",
+          "symbol": "ETH",
+          "icon": {
+            "url": "https://cdn.zerion.io/eth.png"
+          },
+          "flags": {
+            "verified": true
+          },
+          "implementations": [
+            {
+              "chain_id": "arbitrum",
+              "address": null,
+              "decimals": 18
+            },
+            {
+              "chain_id": "astar-zkevm",
+              "address": null,
+              "decimals": 18
+            },
+            {
+              "chain_id": "aurora",
+              "address": null,
+              "decimals": 18
+            },
+            {
+              "chain_id": "base",
+              "address": null,
+              "decimals": 18
+            },
+            {
+              "chain_id": "blast",
+              "address": null,
+              "decimals": 18
+            },
+            {
+              "chain_id": "ethereum",
+              "address": null,
+              "decimals": 18
+            },
+            {
+              "chain_id": "linea",
+              "address": null,
+              "decimals": 18
+            },
+            {
+              "chain_id": "manta-pacific",
+              "address": null,
+              "decimals": 18
+            },
+            {
+              "chain_id": "mode",
+              "address": null,
+              "decimals": 18
+            },
+            {
+              "chain_id": "optimism",
+              "address": null,
+              "decimals": 18
+            },
+            {
+              "chain_id": "polygon-zkevm",
+              "address": null,
+              "decimals": 18
+            },
+            {
+              "chain_id": "rari",
+              "address": null,
+              "decimals": 18
+            },
+            {
+              "chain_id": "redstone",
+              "address": null,
+              "decimals": 18
+            },
+            {
+              "chain_id": "scroll",
+              "address": null,
+              "decimals": 18
+            },
+            {
+              "chain_id": "zksync-era",
+              "address": null,
+              "decimals": 18
+            },
+            {
+              "chain_id": "zora",
+              "address": null,
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2024-07-23T00:39:59Z",
+        "updated_at_block": 20365688
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/ethereum"
+          },
+          "data": {
+            "type": "chains",
+            "id": "ethereum"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/eth?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "eth"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2-ethereum-asset-asset",
+      "attributes": {
+        "parent": null,
+        "protocol": null,
+        "name": "Asset",
+        "position_type": "wallet",
+        "quantity": {
+          "int": "676207679974632",
+          "decimals": 18,
+          "float": 0.0006762076799746,
+          "numeric": "0.000676207679974632"
+        },
+        "value": 2.1273042990119797,
+        "price": 3145.9333604312,
+        "changes": {
+          "absolute_1d": -0.2156931674647775,
+          "percent_1d": -9.205864306337574
+        },
+        "fungible_info": {
+          "name": "Wrapped Ethereum",
+          "symbol": "WETH",
+          "icon": {
+            "url": "https://cdn.zerion.io/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png"
+          },
+          "flags": {
+            "verified": true
+          },
+          "implementations": [
+            {
+              "chain_id": "arbitrum",
+              "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+              "decimals": 18
+            },
+            {
+              "chain_id": "aurora",
+              "address": "0xc9bdeed33cd01541e1eed10f90519d2c06fe3feb",
+              "decimals": 18
+            },
+            {
+              "chain_id": "avalanche",
+              "address": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+              "decimals": 18
+            },
+            {
+              "chain_id": "base",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "binance-smart-chain",
+              "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+              "decimals": 18
+            },
+            {
+              "chain_id": "blast",
+              "address": "0x4300000000000000000000000000000000000004",
+              "decimals": 18
+            },
+            {
+              "chain_id": "celo",
+              "address": "0x2def4285787d58a2f811af24755a8150622f4361",
+              "decimals": 18
+            },
+            {
+              "chain_id": "ethereum",
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "decimals": 18
+            },
+            {
+              "chain_id": "linea",
+              "address": "0xe5d7c2a44ffddf6b295a15c148167daaaf5cf34f",
+              "decimals": 18
+            },
+            {
+              "chain_id": "metis-andromeda",
+              "address": "0x420000000000000000000000000000000000000a",
+              "decimals": 18
+            },
+            {
+              "chain_id": "optimism",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "polygon",
+              "address": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+              "decimals": 18
+            },
+            {
+              "chain_id": "polygon-zkevm",
+              "address": "0x4f9a0e7fd2bf6067db6994cf12e4495df938e6e9",
+              "decimals": 18
+            },
+            {
+              "chain_id": "scroll",
+              "address": "0x5300000000000000000000000000000000000004",
+              "decimals": 18
+            },
+            {
+              "chain_id": "xdai",
+              "address": "0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1",
+              "decimals": 18
+            },
+            {
+              "chain_id": "zksync-era",
+              "address": "0x5aea5775959fbc2557cc8789bc1bf90a239d9a91",
+              "decimals": 18
+            },
+            {
+              "chain_id": "zora",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2024-07-18T14:04:59Z",
+        "updated_at_block": 20333866
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/ethereum"
+          },
+          "data": {
+            "type": "chains",
+            "id": "ethereum"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0x34635280737b5bfe6c7dc2fc3065d60d66e78185-ethereum-asset-asset",
+      "attributes": {
+        "parent": null,
+        "protocol": null,
+        "name": "Asset",
+        "position_type": "wallet",
+        "quantity": {
+          "int": "811069016657845024",
+          "decimals": 18,
+          "float": 0.811069016657845,
+          "numeric": "0.811069016657845024"
+        },
+        "value": 0.03349421496698391,
+        "price": 0.0412963808,
+        "changes": {
+          "absolute_1d": -0.0047385884874251785,
+          "percent_1d": -12.394038781581196
+        },
+        "fungible_info": {
+          "name": "Convex Prisma",
+          "symbol": "cvxPrisma",
+          "icon": null,
+          "flags": {
+            "verified": false
+          },
+          "implementations": [
+            {
+              "chain_id": "ethereum",
+              "address": "0x34635280737b5bfe6c7dc2fc3065d60d66e78185",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2023-11-08T00:02:35Z",
+        "updated_at_block": 18523535
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/ethereum"
+          },
+          "data": {
+            "type": "chains",
+            "id": "ethereum"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/6caa0455-deff-4a89-b2c0-0652ab7e4277?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "6caa0455-deff-4a89-b2c0-0652ab7e4277"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0x340c070260520ae477b88caa085a33531897145b-base-asset-asset",
+      "attributes": {
+        "parent": null,
+        "protocol": null,
+        "name": "Asset",
+        "position_type": "wallet",
+        "quantity": {
+          "int": "30000000000000000000",
+          "decimals": 18,
+          "float": 30,
+          "numeric": "30.000000000000000000"
+        },
+        "value": 0.002472186382631427,
+        "price": 0.0000824062127543809,
+        "changes": {
+          "absolute_1d": -0.00024939488975390164,
+          "percent_1d": -9.163602508747415
+        },
+        "fungible_info": {
+          "name": "Shigure UI",
+          "symbol": "9MM",
+          "icon": null,
+          "flags": {
+            "verified": false
+          },
+          "implementations": [
+            {
+              "chain_id": "base",
+              "address": "0x340c070260520ae477b88caa085a33531897145b",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2024-06-17T23:04:03Z",
+        "updated_at_block": 15938028
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/base"
+          },
+          "data": {
+            "type": "chains",
+            "id": "base"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/adaf351c-b96f-4b1e-a2b5-68aa87540355?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "adaf351c-b96f-4b1e-a2b5-68aa87540355"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0xcde172dc5ffc46d228838446c57c1227e0b82049-base-asset-asset",
+      "attributes": {
+        "parent": null,
+        "protocol": null,
+        "name": "Asset",
+        "position_type": "wallet",
+        "quantity": {
+          "int": "16800000000000000",
+          "decimals": 18,
+          "float": 0.0168,
+          "numeric": "0.016800000000000000"
+        },
+        "value": 0.00013148174125365692,
+        "price": 0.007826294122241484,
+        "changes": {
+          "absolute_1d": -0.000019215778880806963,
+          "percent_1d": -12.751224349054425
+        },
+        "fungible_info": {
+          "name": "Boomer",
+          "symbol": "BOOMER",
+          "icon": {
+            "url": "https://cdn.zerion.io/e768e1b1-0e75-44ad-a26a-80abeb4d91d1.png"
+          },
+          "flags": {
+            "verified": false
+          },
+          "implementations": [
+            {
+              "chain_id": "base",
+              "address": "0xcde172dc5ffc46d228838446c57c1227e0b82049",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2024-05-03T12:48:47Z",
+        "updated_at_block": 13975570
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/base"
+          },
+          "data": {
+            "type": "chains",
+            "id": "base"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/e768e1b1-0e75-44ad-a26a-80abeb4d91d1?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "e768e1b1-0e75-44ad-a26a-80abeb4d91d1"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0xff62ddfa80e513114c3a0bf4d6ffff1c1d17aadf-base-asset-asset",
+      "attributes": {
+        "parent": null,
+        "protocol": null,
+        "name": "Asset",
+        "position_type": "wallet",
+        "quantity": {
+          "int": "690000000000000000",
+          "decimals": 18,
+          "float": 0.69,
+          "numeric": "0.690000000000000000"
+        },
+        "value": 0.00009751548579,
+        "price": 0.000141326791,
+        "changes": {
+          "absolute_1d": -0.00002097769000319999,
+          "percent_1d": -17.703711511463972
+        },
+        "fungible_info": {
+          "name": "Boe",
+          "symbol": "Boe",
+          "icon": null,
+          "flags": {
+            "verified": false
+          },
+          "implementations": [
+            {
+              "chain_id": "base",
+              "address": "0xff62ddfa80e513114c3a0bf4d6ffff1c1d17aadf",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2024-05-11T00:48:01Z",
+        "updated_at_block": 14299547
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/base"
+          },
+          "data": {
+            "type": "chains",
+            "id": "base"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/1345c1d9-3970-42e7-86bc-9299c08769b1?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "1345c1d9-3970-42e7-86bc-9299c08769b1"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b-ethereum-asset-asset",
+      "attributes": {
+        "parent": null,
+        "protocol": null,
+        "name": "Asset",
+        "position_type": "wallet",
+        "quantity": {
+          "int": "2884",
+          "decimals": 18,
+          "float": 2.9e-15,
+          "numeric": "0.000000000000002884"
+        },
+        "value": 7.7202686212932e-15,
+        "price": 2.6769308673,
+        "changes": {
+          "absolute_1d": -1.214157800265202e-15,
+          "percent_1d": -13.589655820943236
+        },
+        "fungible_info": {
+          "name": "Convex Token",
+          "symbol": "CVX",
+          "icon": {
+            "url": "https://cdn.zerion.io/0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b.png"
+          },
+          "flags": {
+            "verified": true
+          },
+          "implementations": [
+            {
+              "chain_id": "ethereum",
+              "address": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
+              "decimals": 18
+            },
+            {
+              "chain_id": "solana",
+              "address": "BLvmrccP4g1B6SpiVvmQrLUDya1nZ4B2D1nm9jzKF7sz",
+              "decimals": 8
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2023-06-15T23:20:59Z",
+        "updated_at_block": 17488505
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/ethereum"
+          },
+          "data": {
+            "type": "chains",
+            "id": "ethereum"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0x35fa164735182de50811e8e2e824cfb9b6118ac2-ethereum-asset-asset",
+      "attributes": {
+        "parent": null,
+        "protocol": null,
+        "name": "Asset",
+        "position_type": "wallet",
+        "quantity": {
+          "int": "1",
+          "decimals": 18,
+          "float": 0,
+          "numeric": "0.000000000000000001"
+        },
+        "value": 3.1341825422412e-15,
+        "price": 3134.1825422412,
+        "changes": {
+          "absolute_1d": -3.295652701588001e-16,
+          "percent_1d": -9.514701647128499
+        },
+        "fungible_info": {
+          "name": "ether.fi ETH",
+          "symbol": "eETH",
+          "icon": null,
+          "flags": {
+            "verified": true
+          },
+          "implementations": [
+            {
+              "chain_id": "ethereum",
+              "address": "0x35fa164735182de50811e8e2e824cfb9b6118ac2",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": false,
+          "is_trash": false
+        },
+        "updated_at": "2024-05-07T00:56:47Z",
+        "updated_at_block": 19814739
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/ethereum"
+          },
+          "data": {
+            "type": "chains",
+            "id": "ethereum"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/043a1936-2431-475b-ab90-bb0c66fb014b?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "043a1936-2431-475b-ab90-bb0c66fb014b"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0x616e8bfa43f920657b3497dbf40d6b1a02d4608d-ethereum-asset-asset",
+      "attributes": {
+        "parent": null,
+        "protocol": null,
+        "name": "Asset",
+        "position_type": "wallet",
+        "quantity": {
+          "int": "29",
+          "decimals": 18,
+          "float": 0,
+          "numeric": "0.000000000000000029"
+        },
+        "value": 2.2328484107649997e-16,
+        "price": 7.699477278499999,
+        "changes": {
+          "absolute_1d": -1.3674460262500042e-17,
+          "percent_1d": -5.770805444322691
+        },
+        "fungible_info": {
+          "name": "Aura BAL",
+          "symbol": "auraBAL",
+          "icon": null,
+          "flags": {
+            "verified": false
+          },
+          "implementations": [
+            {
+              "chain_id": "ethereum",
+              "address": "0x616e8bfa43f920657b3497dbf40d6b1a02d4608d",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2023-06-15T23:20:59Z",
+        "updated_at_block": 17488505
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/ethereum"
+          },
+          "data": {
+            "type": "chains",
+            "id": "ethereum"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/0x616e8bfa43f920657b3497dbf40d6b1a02d4608d?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "0x616e8bfa43f920657b3497dbf40d6b1a02d4608d"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0x8c4eb0fc6805ee7337ac126f89a807271a88dd67-ethereum-asset-asset",
+      "attributes": {
+        "parent": null,
+        "protocol": null,
+        "name": "Asset",
+        "position_type": "wallet",
+        "quantity": {
+          "int": "11542182440983480889",
+          "decimals": 18,
+          "float": 11.542182440983481,
+          "numeric": "11.542182440983480889"
+        },
+        "value": null,
+        "price": 0,
+        "changes": null,
+        "fungible_info": {
+          "name": "Unionized Aura BAL",
+          "symbol": "uauraBAL",
+          "icon": null,
+          "flags": {
+            "verified": false
+          },
+          "implementations": [
+            {
+              "chain_id": "ethereum",
+              "address": "0x8c4eb0fc6805ee7337ac126f89a807271a88dd67",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2023-06-15T23:20:59Z",
+        "updated_at_block": 17488505
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/ethereum"
+          },
+          "data": {
+            "type": "chains",
+            "id": "ethereum"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/0x8c4eb0fc6805ee7337ac126f89a807271a88dd67?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "0x8c4eb0fc6805ee7337ac126f89a807271a88dd67"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0x85d8cce36899e2313bd11b9b5b73e363dc2ee4e1-polygon-asset-asset",
+      "attributes": {
+        "parent": null,
+        "protocol": null,
+        "name": "Asset",
+        "position_type": "wallet",
+        "quantity": {
+          "int": "10000000000000000000000",
+          "decimals": 18,
+          "float": 10000,
+          "numeric": "10000.000000000000000000"
+        },
+        "value": null,
+        "price": 0,
+        "changes": null,
+        "fungible_info": {
+          "name": "E T H - B O N U S ˳ N E T ",
+          "symbol": "$",
+          "icon": null,
+          "flags": {
+            "verified": false
+          },
+          "implementations": [
+            {
+              "chain_id": "polygon",
+              "address": "0x85d8cce36899e2313bd11b9b5b73e363dc2ee4e1",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2024-03-16T02:24:36Z",
+        "updated_at_block": 54710348
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/polygon"
+          },
+          "data": {
+            "type": "chains",
+            "id": "polygon"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/1dd97ec9-67ed-4cea-8c09-fe46eff00ffc?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "1dd97ec9-67ed-4cea-8c09-fe46eff00ffc"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0xbac532f3595452293681a45c2dbeb235ab87ee9a-optimism-asset-asset",
+      "attributes": {
+        "parent": null,
+        "protocol": null,
+        "name": "Asset",
+        "position_type": "wallet",
+        "quantity": {
+          "int": "10000000000000000000000",
+          "decimals": 18,
+          "float": 10000,
+          "numeric": "10000.000000000000000000"
+        },
+        "value": null,
+        "price": 0,
+        "changes": null,
+        "fungible_info": {
+          "name": "E T H - B O N U S ˳ N E T ",
+          "symbol": "$",
+          "icon": null,
+          "flags": {
+            "verified": false
+          },
+          "implementations": [
+            {
+              "chain_id": "optimism",
+              "address": "0xbac532f3595452293681a45c2dbeb235ab87ee9a",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2024-03-22T01:33:45Z",
+        "updated_at_block": 117736204
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/optimism"
+          },
+          "data": {
+            "type": "chains",
+            "id": "optimism"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/bc92bfa6-9918-4cc2-9812-77312931d778?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "bc92bfa6-9918-4cc2-9812-77312931d778"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0x3808708e761b988d23ae011ed0e12674fb66bd62-ethereum-asset-asset",
+      "attributes": {
+        "parent": null,
+        "protocol": null,
+        "name": "Asset",
+        "position_type": "wallet",
+        "quantity": {
+          "int": "494370098050004579355",
+          "decimals": 18,
+          "float": 494.3700980500046,
+          "numeric": "494.370098050004579355"
+        },
+        "value": null,
+        "price": 0,
+        "changes": null,
+        "fungible_info": {
+          "name": "SideShift SideShift Token Vault",
+          "symbol": "svXAI",
+          "icon": null,
+          "flags": {
+            "verified": false
+          },
+          "implementations": [
+            {
+              "chain_id": "ethereum",
+              "address": "0x3808708e761b988d23ae011ed0e12674fb66bd62",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2024-03-16T02:51:35Z",
+        "updated_at_block": 19444593
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/ethereum"
+          },
+          "data": {
+            "type": "chains",
+            "id": "ethereum"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/bd1e8f0b-0561-4202-9097-e7422d659bc1?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "bd1e8f0b-0561-4202-9097-e7422d659bc1"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0x55769490c825ccb09b2a6ae955203fabf04857fd-ethereum-asset-asset",
+      "attributes": {
+        "parent": null,
+        "protocol": null,
+        "name": "Asset",
+        "position_type": "wallet",
+        "quantity": {
+          "int": "10528041018726042066000",
+          "decimals": 18,
+          "float": 10528.041018726042,
+          "numeric": "10528.041018726042066000"
+        },
+        "value": null,
+        "price": 0,
+        "changes": null,
+        "fungible_info": {
+          "name": "Staked Dinero",
+          "symbol": "sDINERO",
+          "icon": null,
+          "flags": {
+            "verified": false
+          },
+          "implementations": [
+            {
+              "chain_id": "ethereum",
+              "address": "0x55769490c825ccb09b2a6ae955203fabf04857fd",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2024-07-23T00:39:59Z",
+        "updated_at_block": 20365688
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/ethereum"
+          },
+          "data": {
+            "type": "chains",
+            "id": "ethereum"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/3284fb02-9c6a-4f06-924a-c81aad88aa8e?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "3284fb02-9c6a-4f06-924a-c81aad88aa8e"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0x8659fc767cad6005de79af65dafe4249c57927af-ethereum-asset-asset",
+      "attributes": {
+        "parent": null,
+        "protocol": null,
+        "name": "Asset",
+        "position_type": "wallet",
+        "quantity": {
+          "int": "31475986296303206134",
+          "decimals": 18,
+          "float": 31.475986296303205,
+          "numeric": "31.475986296303206134"
+        },
+        "value": null,
+        "price": 0,
+        "changes": null,
+        "fungible_info": {
+          "name": "Union Pirex",
+          "symbol": "uCVX",
+          "icon": null,
+          "flags": {
+            "verified": false
+          },
+          "implementations": [
+            {
+              "chain_id": "ethereum",
+              "address": "0x8659fc767cad6005de79af65dafe4249c57927af",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2023-06-15T23:20:59Z",
+        "updated_at_block": 17488505
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/ethereum"
+          },
+          "data": {
+            "type": "chains",
+            "id": "ethereum"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/7b5cce19-a744-4f79-b19e-70a3f359f952?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "7b5cce19-a744-4f79-b19e-70a3f359f952"
+          }
+        }
+      }
+    }
+  ]
+}

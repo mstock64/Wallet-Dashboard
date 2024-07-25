@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@keyframes floatin{
+  20%, 60%{
+    transform: rotate3d(-45deg);
+  }
+  40%, 80%{
+    transform: rotate3d(45deg);
+  }
+}
+.animate {
+  animation-duration: 3s;
+  animation-name: floatin;
+  animation-iteration-count: 1;
 }
