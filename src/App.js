@@ -1,14 +1,16 @@
 import './App.css';
-import WalletItem from './WalletItem';
-import WalletSubmit from './WalletSubmit';
-import WalletHub from './WalletHub';
+import WalletHub from './Wallet Components/WalletHub';
+import React from 'react';
+import WalletSubmit from './Wallet Components/WalletSubmit';
+let items = []
+let addr = ''
 
 function App() {
+  
   return (
-    <div>
-      <WalletHub/>
-      <WalletSubmit/>
-      <WalletItem/>
+    <div class='bg-gray-900'>
+      <WalletHub />
+      <WalletSubmit />
     </div>
   );
 }
