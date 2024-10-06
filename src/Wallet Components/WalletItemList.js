@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 export default function WalletItemList({ address }) {
 
-    const [datam, setData] = useState([]);
+   
     const [toggleClose, setToggle] = useState(true)
     const changeData = useCallback(async () => {
         const options = {
@@ -20,10 +20,8 @@ export default function WalletItemList({ address }) {
 
     }, []);
 
-    useEffect(() => {
-        changeData()
-    }, [address]);
 
+    const [datam, setData] = useState(changeData);
 
 
     return (
@@ -42,10 +40,7 @@ export default function WalletItemList({ address }) {
                                     <span class=" text-white text-2xl "><strong>Address:</strong> <span class="text-sm">{address} </span></span>
                                 </div>
                             <div class='justify-between'>
-                                <button type='button' class='bg-whiteborder-white border-2 w-5h-8rounded-full text-xl justify-end text-gray-800'
-                                 onClick={(event) => {
-                                    setToggle(!toggleClose)
-                                 }}>-</button>
+                                <button type='button' class='bg-white border-white border-2 font-bold text-2xl w-5 h-8 rounded-full justify-end text-gray-800'onClick={() => {setToggle(!toggleClose)}}>-</button>
                             </div>
 
                         </div>

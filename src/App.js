@@ -1,7 +1,8 @@
 import './App.css';
 import WalletHub from './Wallet Components/WalletHub';
 import React from 'react';
-import WalletSubmit from './Wallet Components/WalletSubmit';
+import WalletSubmits from './Wallet Components/WalletSubmits';
+import WalletDashboard from './Wallet Components/WalletDashboard';
 let items = []
 let addr = ''
 
@@ -10,7 +11,7 @@ function App() {
   return (
     <div class='bg-gray-900'>
       <WalletHub />
-      <WalletSubmit />
+      <WalletDashboard />
     </div>
   );
 }
